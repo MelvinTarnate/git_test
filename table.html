@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Practicing my front end dev">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Melvin pogi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</table></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--table-->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Melvin Tarnate</td>
+                <td>18</td>
+                <td>melvin.tarnate12@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Lambada</td>
+                <td>19</td>
+                <td>lambada@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--form-->
+    <form action="process.php" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="first-name">
+        <label>first name</label>
+        <input type="text" name="first name" id="first name">
+        </div>
+        <div class="last-name">
+            <br>
+        <label>last name</label>
+        <input type="text" name="last name" id="last name">
+        </div>
+        <div class="email">
+            <br>
+            <label>email</label>
+            <input type="email" name="email" id="email" placeholder="enter email" required>
+        </div>
+        <div class="password">
+            <br>
+            <label>password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="date">
+            <br>
+            <input type="date" name="date" id="date">
+        </div>
+        <div class="time">
+            <br>
+            <label>time</label>
+            <input type="time" name="time" id="time">
+        </div>
+        <div>
+            <br>
+            <label>color picker</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <div>
+            <br>
+            <label>text area</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="put your comments here"></textarea>
+        </div>
+        <div>
+            <br>
+            <label>select</label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <div class="file">
+        <label>file upload</label>
+        <input type="file" name="file" id="file" accept="image/*">
+        </div>
+        <div>
+            <input type="submit" name ="submit" value="submit form">
+            <button type="reset"></button>
+        </div>
+    </form>
+
+    <!--image-->
+    <a href="img/qop.jpg">
+    <img src="img/qop.jpg" alt=""></a>
+    <!--quotation-->
+    <blockquote cite="http:/wiki.com">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ipsa facilis sunt maxime, voluptatem fugiat veniam unde corporis fugit molestiae?</blockquote>
+    <!--abbreviation-->
+    <p>THE <abbr title="WorldWideWeb">WWW</abbr> is awesome</p>
+    <div style="margin-top: 6500px;"></div>
+</body>
+
+</html>
